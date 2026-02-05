@@ -1,0 +1,30 @@
+name: Weekly HR Trend Update
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 8 * * MON"  # 08:00 UTC varje måndag
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - run: npm ci
+      - run: npm run update
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add public/data/reports.json
+          git commit -m "Weekly update: reports.json" || echo "No changes"
+          git push
