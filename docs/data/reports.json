@@ -1,0 +1,37 @@
+{
+  "updatedAt": "2026-02-06T09:00:00Z",
+  "sources": [
+    {"id":"deloitte_hct","name":"Deloitte – Human Capital","url":"https://www.deloitte.com","kind":"rss"},
+    {"id":"hbr_hrm","name":"Harvard Business Review","url":"https://hbr.org","kind":"html"},
+    {"id":"mckinsey","name":"McKinsey Insights","url":"https://www.mckinsey.com","kind":"rss"}
+  ],
+  "items": [
+    {
+      "id":"deloitte::https://www.deloitte.com/sample-report",
+      "sourceId":"deloitte_hct",
+      "sourceName":"Deloitte – Human Capital",
+      "title":"2026 Global Human Capital Trends — sample report",
+      "url":"https://www.deloitte.com/sample-report",
+      "publishedAt":"2026-02-02T10:00:00Z",
+      "snippet":"Deloitte highlights talent, upskilling and hybrid work as top priorities for 2026."
+    },
+    {
+      "id":"hbr::https://hbr.org/sample-article",
+      "sourceId":"hbr_hrm",
+      "sourceName":"Harvard Business Review",
+      "title":"Leading Hybrid Teams: New Research Findings",
+      "url":"https://hbr.org/sample-article",
+      "publishedAt":"2026-02-04T08:00:00Z",
+      "snippet":"HBR examines what high-performing hybrid teams do differently."
+    },
+    {
+      "id":"mck::https://www.mckinsey.com/sample-insight",
+      "sourceId":"mckinsey",
+      "sourceName":"McKinsey Insights",
+      "title":"Skills for the New Era: A practical framework",
+      "url":"https://www.mckinsey.com/sample-insight",
+      "publishedAt":"2026-02-01T12:00:00Z",
+      "snippet":"Framework to map current roles to future skill needs and training priorities."
+    }
+  ]
+}
