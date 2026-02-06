@@ -210,4 +210,49 @@ a:hover{text-decoration:underline}
   margin-top:26px;
   border-top:1px solid var(--border);
   padding-top:16px;
+  /* Weekly summary */
+.weekly-summary {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.95), rgba(255,255,255,0.9));
+  box-shadow: 0 12px 30px rgba(2,8,23,0.06);
+  border: 1px solid var(--border);
+}
+
+.weekly-summary__inner {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap:wrap;
+}
+
+.weekly-summary__left { flex: 1 1 60%; min-width:260px }
+.weekly-summary__right { flex: 0 0 260px; min-width:220px }
+
+.weekly-bullets { margin:12px 0 0 0; padding-left:18px; color:var(--muted) }
+.weekly-bullets li { margin-bottom:8px; line-height:1.45; }
+
+.weekly-themes { display:flex; gap:8px; flex-wrap:wrap; margin-top:6px }
+.weekly-themes .pill {
+  padding: 8px 10px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--accent), var(--accent)); /* accent */
+  color: white;
+  font-size:13px;
+  box-shadow: 0 6px 18px rgba(2,8,23,0.06);
+}
+
+.weekly-cta { margin-top:12px }
+.btn {
+  display:inline-block;
+  text-decoration:none;
+  background: var(--accent);
+  color: white;
+  padding:8px 12px;
+  border-radius:10px;
+  font-weight:700;
+}
+
 }
