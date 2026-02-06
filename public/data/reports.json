@@ -1,0 +1,394 @@
+{
+  "updatedAt": "2026-02-06T09:33:08.857Z",
+  "sources": [
+    {
+      "id": "deloitte_hct",
+      "name": "Deloitte – Human Capital",
+      "url": "https://action.deloitte.com/rss/topic/154/2025-global-human-capital-trends/feed.xml",
+      "kind": "rss"
+    },
+    {
+      "id": "gartner_press",
+      "name": "Gartner – Newsroom (RSS)",
+      "url": "https://www.gartner.com/en/newsroom/rss",
+      "kind": "rss"
+    },
+    {
+      "id": "hbr_hrm",
+      "name": "HBR – HR Management (topic)",
+      "url": "https://hbr.org/topic/subject/human-resource-management",
+      "kind": "html"
+    }
+  ],
+  "items": [
+    {
+      "id": "gartner_press::error",
+      "sourceId": "gartner_press",
+      "sourceName": "Gartner – Newsroom (RSS)",
+      "title": "Kunde inte hämta källan",
+      "url": "https://www.gartner.com/en/newsroom/rss",
+      "publishedAt": "2026-02-06T09:33:08.021Z",
+      "snippet": "Error: Status code 403"
+    },
+    {
+      "id": "deloitte_hct::https://action.deloitte.com/insight/4689/mining-and-metals-managers-drill-down-on-innovation",
+      "sourceId": "deloitte_hct",
+      "sourceName": "Deloitte – Human Capital",
+      "title": "Mining and metals managers drill down on innovation",
+      "url": "https://action.deloitte.com/insight/4689/mining-and-metals-managers-drill-down-on-innovation",
+      "publishedAt": "2025-10-01T07:00:00.000Z",
+      "snippet": "Evolving business demands in ERI demands dynamic, inclusive leadership and agility."
+    },
+    {
+      "id": "deloitte_hct::https://action.deloitte.com/insight/4694/ai-motivation-a-packaged-deal-in-retail-consumer-products",
+      "sourceId": "deloitte_hct",
+      "sourceName": "Deloitte – Human Capital",
+      "title": "AI, motivation a packaged deal in retail consumer products",
+      "url": "https://action.deloitte.com/insight/4694/ai-motivation-a-packaged-deal-in-retail-consumer-products",
+      "publishedAt": "2025-09-26T07:00:00.000Z",
+      "snippet": "Understanding what motivates employees is essential for unlocking their full potential and maintaining industry competitiveness."
+    },
+    {
+      "id": "deloitte_hct::https://action.deloitte.com/insight/4687/digging-for-creative-capacity-in-mining-and-metals",
+      "sourceId": "deloitte_hct",
+      "sourceName": "Deloitte – Human Capital",
+      "title": "Digging for creative capacity in mining and metals",
+      "url": "https://action.deloitte.com/insight/4687/digging-for-creative-capacity-in-mining-and-metals",
+      "publishedAt": "2025-09-24T07:00:00.000Z",
+      "snippet": "Find out how organizations can prioritizes outcomes over outputs."
+    },
+    {
+      "id": "deloitte_hct::https://action.deloitte.com/insight/4693/extending-the-stay-of-employees-in-the-automotive-sector-orgs",
+      "sourceId": "deloitte_hct",
+      "sourceName": "Deloitte – Human Capital",
+      "title": "Extending the stay of employees in the automotive sector orgs",
+      "url": "https://action.deloitte.com/insight/4693/extending-the-stay-of-employees-in-the-automotive-sector-orgs",
+      "publishedAt": "2025-09-22T07:00:00.000Z",
+      "snippet": "Auto orgs must upskill workers, bridge technical gaps, and unlock capacity."
+    },
+    {
+      "id": "deloitte_hct::https://action.deloitte.com/insight/4692/ths-orgs-make-room-for-worker-capacity-motivation",
+      "sourceId": "deloitte_hct",
+      "sourceName": "Deloitte – Human Capital",
+      "title": "THS orgs make room for worker capacity, motivation",
+      "url": "https://action.deloitte.com/insight/4692/ths-orgs-make-room-for-worker-capacity-motivation",
+      "publishedAt": "2025-09-19T07:00:00.000Z",
+      "snippet": "THS companies prioritize reducing unnecessary tasks and improving efficiency."
+    },
+    {
+      "id": "deloitte_hct::https://action.deloitte.com/insight/4688/mining-and-metals-looks-to-leaders-to-harness-human-capabilities",
+      "sourceId": "deloitte_hct",
+      "sourceName": "Deloitte – Human Capital",
+      "title": "Mining and metals looks to leaders to harness human capabilities",
+      "url": "https://action.deloitte.com/insight/4688/mining-and-metals-looks-to-leaders-to-harness-human-capabilities",
+      "publishedAt": "2025-09-15T07:00:00.000Z",
+      "snippet": "Mining and metals orgs must align technology and human capabilities."
+    },
+    {
+      "id": "deloitte_hct::https://action.deloitte.com/insight/4676/which-way-modern-manager-rethinking-performance-with-motivationrethinking-performance-motivation-management-and-the-modern-manager",
+      "sourceId": "deloitte_hct",
+      "sourceName": "Deloitte – Human Capital",
+      "title": "Which way, modern manager? Rethinking performance with motivation",
+      "url": "https://action.deloitte.com/insight/4676/which-way-modern-manager-rethinking-performance-with-motivationrethinking-performance-motivation-management-and-the-modern-manager",
+      "publishedAt": "2025-09-05T07:00:00.000Z",
+      "snippet": "The focus is shifting to an appreciation of motivation and the role managers play."
+    },
+    {
+      "id": "deloitte_hct::https://action.deloitte.com/insight/4638/human-capital-trends-life-sciences",
+      "sourceId": "deloitte_hct",
+      "sourceName": "Deloitte – Human Capital",
+      "title": "Human Capital Trends: Life Sciences",
+      "url": "https://action.deloitte.com/insight/4638/human-capital-trends-life-sciences",
+      "publishedAt": "2025-09-02T07:00:00.000Z",
+      "snippet": "Life sciences orgs must reevaluate how they design work, lead people, and deliver value."
+    },
+    {
+      "id": "deloitte_hct::https://action.deloitte.com/insight/4675/finding-channels-for-workers-and-ai-in-tmt",
+      "sourceId": "deloitte_hct",
+      "sourceName": "Deloitte – Human Capital",
+      "title": "Finding channels for workers and AI in TMT",
+      "url": "https://action.deloitte.com/insight/4675/finding-channels-for-workers-and-ai-in-tmt",
+      "publishedAt": "2025-08-27T07:00:00.000Z",
+      "snippet": "Workers are more likely to join ors offering AI-driven employee value propositions."
+    },
+    {
+      "id": "deloitte_hct::https://action.deloitte.com/insight/4674/tmt-eyes-stagility-to-streamline-work",
+      "sourceId": "deloitte_hct",
+      "sourceName": "Deloitte – Human Capital",
+      "title": "TMT eyes stagility to streamline work",
+      "url": "https://action.deloitte.com/insight/4674/tmt-eyes-stagility-to-streamline-work",
+      "publishedAt": "2025-08-25T07:00:00.000Z",
+      "snippet": "In TMT, agility involves redefining traditional anchors."
+    },
+    {
+      "id": "deloitte_hct::https://action.deloitte.com/insight/4593/2025-global-human-capital-trends-collection",
+      "sourceId": "deloitte_hct",
+      "sourceName": "Deloitte – Human Capital",
+      "title": "2025 Global Human Capital Trends Collection",
+      "url": "https://action.deloitte.com/insight/4593/2025-global-human-capital-trends-collection",
+      "publishedAt": "2025-06-16T07:00:00.000Z",
+      "snippet": "Navigating complex tensions and choices in the worker-organization relationship."
+    },
+    {
+      "id": "deloitte_hct::https://action.deloitte.com/insight/4475/reinventing-the-managers-role-for-the-future-of-work-with-ai-and-human-collaboration",
+      "sourceId": "deloitte_hct",
+      "sourceName": "Deloitte – Human Capital",
+      "title": "Reinventing the manager's role for the future of work with AI and human collaboration",
+      "url": "https://action.deloitte.com/insight/4475/reinventing-the-managers-role-for-the-future-of-work-with-ai-and-human-collaboration",
+      "publishedAt": "2025-05-09T07:00:00.000Z",
+      "snippet": "For most orgs, value is found in reinventing, rather than eliminating, the manager role."
+    },
+    {
+      "id": "deloitte_hct::https://action.deloitte.com/insight/4477/reimagining-performance-management-for-enhanced-trust-and-human-performance",
+      "sourceId": "deloitte_hct",
+      "sourceName": "Deloitte – Human Capital",
+      "title": "Reimagining performance management for enhanced trust and human performance",
+      "url": "https://action.deloitte.com/insight/4477/reimagining-performance-management-for-enhanced-trust-and-human-performance",
+      "publishedAt": "2025-05-08T07:00:00.000Z",
+      "snippet": "Engineering human performance takes more than a process."
+    },
+    {
+      "id": "deloitte_hct::https://action.deloitte.com/insight/4480/harnessing-individual-motivations-to-drive-performance-and-create-unified-teams",
+      "sourceId": "deloitte_hct",
+      "sourceName": "Deloitte – Human Capital",
+      "title": "Harnessing individual motivations to drive performance and create unified teams",
+      "url": "https://action.deloitte.com/insight/4480/harnessing-individual-motivations-to-drive-performance-and-create-unified-teams",
+      "publishedAt": "2025-05-07T07:00:00.000Z",
+      "snippet": "What’s the last mile of realizing human performance?"
+    },
+    {
+      "id": "deloitte_hct::https://action.deloitte.com/insight/4476/embracing-new-technologies-to-unlock-human-potential-and-organizational-value",
+      "sourceId": "deloitte_hct",
+      "sourceName": "Deloitte – Human Capital",
+      "title": "Embracing new technologies to unlock human potential and organizational value",
+      "url": "https://action.deloitte.com/insight/4476/embracing-new-technologies-to-unlock-human-potential-and-organizational-value",
+      "publishedAt": "2025-05-06T07:00:00.000Z",
+      "snippet": "Orgs need a new approach to realize value from work and workforce tech investments."
+    },
+    {
+      "id": "deloitte_hct::https://action.deloitte.com/insight/4473/bridging-the-experience-gap-to-unlock-human-performance",
+      "sourceId": "deloitte_hct",
+      "sourceName": "Deloitte – Human Capital",
+      "title": "Bridging the experience gap to unlock human performance",
+      "url": "https://action.deloitte.com/insight/4473/bridging-the-experience-gap-to-unlock-human-performance",
+      "publishedAt": "2025-05-05T07:00:00.000Z",
+      "snippet": "Orgs struggle to find experienced talent— and workers struggle to gain experience."
+    },
+    {
+      "id": "deloitte_hct::https://action.deloitte.com/insight/4478/reclaiming-organizational-capacity-to-unlock-human-performance",
+      "sourceId": "deloitte_hct",
+      "sourceName": "Deloitte – Human Capital",
+      "title": "Reclaiming organizational capacity to unlock human performance",
+      "url": "https://action.deloitte.com/insight/4478/reclaiming-organizational-capacity-to-unlock-human-performance",
+      "publishedAt": "2025-05-01T07:00:00.000Z",
+      "snippet": "Why do so many orgs struggle to retain their most valuable resource: worker capacity?"
+    },
+    {
+      "id": "deloitte_hct::https://action.deloitte.com/insight/4479/balancing-stability-and-agility-to-unlock-human-performance",
+      "sourceId": "deloitte_hct",
+      "sourceName": "Deloitte – Human Capital",
+      "title": "Balancing stability and agility to unlock human performance",
+      "url": "https://action.deloitte.com/insight/4479/balancing-stability-and-agility-to-unlock-human-performance",
+      "publishedAt": "2025-04-30T07:00:00.000Z",
+      "snippet": "How can leaders balance the stability workers crave with the agility orgs need?"
+    },
+    {
+      "id": "deloitte_hct::https://action.deloitte.com/insight/4504/2025-global-human-capital-trendsvideo-series",
+      "sourceId": "deloitte_hct",
+      "sourceName": "Deloitte – Human Capital",
+      "title": "2025 Global Human Capital Trends—Video Series",
+      "url": "https://action.deloitte.com/insight/4504/2025-global-human-capital-trendsvideo-series",
+      "publishedAt": "2025-04-29T07:00:00.000Z",
+      "snippet": "Exploring thought leadership across work, workforce, and organization and culture."
+    },
+    {
+      "id": "deloitte_hct::https://action.deloitte.com/insight/4511/2025-global-human-capital-trends-infographics-series",
+      "sourceId": "deloitte_hct",
+      "sourceName": "Deloitte – Human Capital",
+      "title": "2025 Global Human Capital Trends—Infographics Series",
+      "url": "https://action.deloitte.com/insight/4511/2025-global-human-capital-trends-infographics-series",
+      "publishedAt": "2025-04-28T07:00:00.000Z",
+      "snippet": "A visual guide to all of the 2025 Global Human Capital Trends."
+    },
+    {
+      "id": "hbr_hrm::https://hbr.org/reading-lists",
+      "sourceId": "hbr_hrm",
+      "sourceName": "HBR – HR Management (topic)",
+      "title": "Reading Lists",
+      "url": "https://hbr.org/reading-lists",
+      "publishedAt": "1970-01-01T00:00:00.000Z",
+      "snippet": null
+    },
+    {
+      "id": "hbr_hrm::https://hbr.org/data-visuals",
+      "sourceId": "hbr_hrm",
+      "sourceName": "HBR – HR Management (topic)",
+      "title": "Data & Visuals",
+      "url": "https://hbr.org/data-visuals",
+      "publishedAt": "1970-01-01T00:00:00.000Z",
+      "snippet": null
+    },
+    {
+      "id": "hbr_hrm::https://hbr.org/case-selections",
+      "sourceId": "hbr_hrm",
+      "sourceName": "HBR – HR Management (topic)",
+      "title": "Case Selections",
+      "url": "https://hbr.org/case-selections",
+      "publishedAt": "1970-01-01T00:00:00.000Z",
+      "snippet": null
+    },
+    {
+      "id": "hbr_hrm::https://hbr.org/learning",
+      "sourceId": "hbr_hrm",
+      "sourceName": "HBR – HR Management (topic)",
+      "title": "HBR Learning",
+      "url": "https://hbr.org/learning",
+      "publishedAt": "1970-01-01T00:00:00.000Z",
+      "snippet": null
+    },
+    {
+      "id": "hbr_hrm::https://hbr.org/executive",
+      "sourceId": "hbr_hrm",
+      "sourceName": "HBR – HR Management (topic)",
+      "title": "HBR Executive",
+      "url": "https://hbr.org/executive",
+      "publishedAt": "1970-01-01T00:00:00.000Z",
+      "snippet": null
+    },
+    {
+      "id": "hbr_hrm::https://hbr.org/magazine",
+      "sourceId": "hbr_hrm",
+      "sourceName": "HBR – HR Management (topic)",
+      "title": "The Magazine",
+      "url": "https://hbr.org/magazine",
+      "publishedAt": "1970-01-01T00:00:00.000Z",
+      "snippet": null
+    },
+    {
+      "id": "hbr_hrm::https://hbr.org/my-library/settings",
+      "sourceId": "hbr_hrm",
+      "sourceName": "HBR – HR Management (topic)",
+      "title": "Account Settings",
+      "url": "https://hbr.org/my-library/settings",
+      "publishedAt": "1970-01-01T00:00:00.000Z",
+      "snippet": null
+    },
+    {
+      "id": "hbr_hrm::https://hbr.org/my-library/preferences",
+      "sourceId": "hbr_hrm",
+      "sourceName": "HBR – HR Management (topic)",
+      "title": "Email Preferences",
+      "url": "https://hbr.org/my-library/preferences",
+      "publishedAt": "1970-01-01T00:00:00.000Z",
+      "snippet": null
+    },
+    {
+      "id": "hbr_hrm::https://hbr.org/store",
+      "sourceId": "hbr_hrm",
+      "sourceName": "HBR – HR Management (topic)",
+      "title": "Visit Our Store",
+      "url": "https://hbr.org/store",
+      "publishedAt": "1970-01-01T00:00:00.000Z",
+      "snippet": null
+    },
+    {
+      "id": "hbr_hrm::https://hbr.org/topics",
+      "sourceId": "hbr_hrm",
+      "sourceName": "HBR – HR Management (topic)",
+      "title": "See All Topics",
+      "url": "https://hbr.org/topics",
+      "publishedAt": "1970-01-01T00:00:00.000Z",
+      "snippet": null
+    },
+    {
+      "id": "hbr_hrm::https://hbr.org/2026/02/the-delicate-politics-of-hiring-someone-from-another-team",
+      "sourceId": "hbr_hrm",
+      "sourceName": "HBR – HR Management (topic)",
+      "title": "The Delicate Politics of Hiring Someone from Another Team",
+      "url": "https://hbr.org/2026/02/the-delicate-politics-of-hiring-someone-from-another-team",
+      "publishedAt": "1970-01-01T00:00:00.000Z",
+      "snippet": null
+    },
+    {
+      "id": "hbr_hrm::https://hbr.org/2026/02/how-do-workers-develop-good-judgment-in-the-ai-era",
+      "sourceId": "hbr_hrm",
+      "sourceName": "HBR – HR Management (topic)",
+      "title": "How Do Workers Develop Good Judgment in the AI Era?",
+      "url": "https://hbr.org/2026/02/how-do-workers-develop-good-judgment-in-the-ai-era",
+      "publishedAt": "1970-01-01T00:00:00.000Z",
+      "snippet": null
+    },
+    {
+      "id": "hbr_hrm::https://hbr.org/2026/02/hb-to-drive-ai-adoption-build-your-teams-product-management-skills",
+      "sourceId": "hbr_hrm",
+      "sourceName": "HBR – HR Management (topic)",
+      "title": "To Drive AI Adoption, Build Your Team’s Product Management Skills",
+      "url": "https://hbr.org/2026/02/hb-to-drive-ai-adoption-build-your-teams-product-management-skills",
+      "publishedAt": "1970-01-01T00:00:00.000Z",
+      "snippet": null
+    },
+    {
+      "id": "hbr_hrm::https://hbr.org/2026/02/9-trends-shaping-work-in-2026-and-beyond",
+      "sourceId": "hbr_hrm",
+      "sourceName": "HBR – HR Management (topic)",
+      "title": "9 Trends Shaping Work in 2026 and Beyond",
+      "url": "https://hbr.org/2026/02/9-trends-shaping-work-in-2026-and-beyond",
+      "publishedAt": "1970-01-01T00:00:00.000Z",
+      "snippet": null
+    },
+    {
+      "id": "hbr_hrm::https://hbr.org/2026/01/companies-are-laying-off-workers-because-of-ais-potential-not-its-performance",
+      "sourceId": "hbr_hrm",
+      "sourceName": "HBR – HR Management (topic)",
+      "title": "Companies Are Laying Off Workers Because of AI’s Potential—Not Its Performance",
+      "url": "https://hbr.org/2026/01/companies-are-laying-off-workers-because-of-ais-potential-not-its-performance",
+      "publishedAt": "1970-01-01T00:00:00.000Z",
+      "snippet": null
+    },
+    {
+      "id": "hbr_hrm::https://hbr.org/2026/01/when-tipping-becomes-a-customer-experience-problem",
+      "sourceId": "hbr_hrm",
+      "sourceName": "HBR – HR Management (topic)",
+      "title": "When Tipping Becomes a Customer Experience Problem",
+      "url": "https://hbr.org/2026/01/when-tipping-becomes-a-customer-experience-problem",
+      "publishedAt": "1970-01-01T00:00:00.000Z",
+      "snippet": null
+    },
+    {
+      "id": "hbr_hrm::https://hbr.org/2026/01/ai-has-made-hiring-worse-but-it-can-still-help",
+      "sourceId": "hbr_hrm",
+      "sourceName": "HBR – HR Management (topic)",
+      "title": "AI Has Made Hiring Worse—But It Can Still Help",
+      "url": "https://hbr.org/2026/01/ai-has-made-hiring-worse-but-it-can-still-help",
+      "publishedAt": "1970-01-01T00:00:00.000Z",
+      "snippet": null
+    },
+    {
+      "id": "hbr_hrm::https://hbr.org/2026/01/policies-arent-enough-to-retain-top-talent-you-need-systems",
+      "sourceId": "hbr_hrm",
+      "sourceName": "HBR – HR Management (topic)",
+      "title": "Policies Aren’t Enough to Retain Top Talent. You Need Systems.",
+      "url": "https://hbr.org/2026/01/policies-arent-enough-to-retain-top-talent-you-need-systems",
+      "publishedAt": "1970-01-01T00:00:00.000Z",
+      "snippet": null
+    },
+    {
+      "id": "hbr_hrm::https://hbr.org/2026/01/to-change-company-culture-start-with-one-high-impact-behavior",
+      "sourceId": "hbr_hrm",
+      "sourceName": "HBR – HR Management (topic)",
+      "title": "To Change Company Culture, Start with One High-Impact Behavior",
+      "url": "https://hbr.org/2026/01/to-change-company-culture-start-with-one-high-impact-behavior",
+      "publishedAt": "1970-01-01T00:00:00.000Z",
+      "snippet": null
+    },
+    {
+      "id": "hbr_hrm::https://hbr.org/sponsored/2026/01/using-ai-to-bolster-hiring-practices-that-meet-rising-human-capital-needs",
+      "sourceId": "hbr_hrm",
+      "sourceName": "HBR – HR Management (topic)",
+      "title": "Using AI to Bolster Hiring Practices that Meet Rising Human Capital Needs",
+      "url": "https://hbr.org/sponsored/2026/01/using-ai-to-bolster-hiring-practices-that-meet-rising-human-capital-needs",
+      "publishedAt": "1970-01-01T00:00:00.000Z",
+      "snippet": null
+    }
+  ]
+}
