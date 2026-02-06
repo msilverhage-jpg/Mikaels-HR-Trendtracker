@@ -3,25 +3,84 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Mikaels HR Trendtracker</title>
+  <title>HR Trend Digest</title>
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-  <header class="wrap">
-    <h1>Mikaels HR Trendtracker</h1>
-    <p class="muted">
-      Tracking HR trends weekly from leading publishers (Deloitte, HBR, McKinsey m.fl.)
-    </p>
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <div>
+        <div class="eyebrow">HR Trend Digest</div>
+        <h1>Veckans highlights & nya rapporter</h1>
+        <p class="muted">Automatiskt sammanställt från utvalda källor (Deloitte, HBR, m.fl.).</p>
+      </div>
 
-    <div class="controls">
-      <input
-        id="q"
-        type="search"
-        placeholder="Sök (AI, hybrid, skills, leadership…)">
-      <select id="source"></select>
+      <div class="controls">
+        <input id="q" type="search" placeholder="Sök i rapporter..." />
+        <select id="category">
+          <option value="all">Alla kategorier</option>
+          <option value="ai">AI & produktivitet</option>
+          <option value="hybrid">Hybrid & kultur</option>
+          <option value="skills">Skills & reskilling</option>
+          <option value="rewards">Comp & rewards</option>
+          <option value="leadership">Ledarskap</option>
+        </select>
+        <select id="source"></select>
+      </div>
     </div>
-
-    <div id="meta" class="meta"></div>
   </header>
 
-  <ma
+  <main class="wrap">
+    <section class="cards">
+      <div class="card card--meta">
+        <div class="kpi">
+          <div class="kpi__label">Senast uppdaterad</div>
+          <div id="updatedAt" class="kpi__value">—</div>
+        </div>
+      </div>
+      <div class="card card--meta">
+        <div class="kpi">
+          <div class="kpi__label">Nya items</div>
+          <div id="count" class="kpi__value">—</div>
+        </div>
+      </div>
+      <div class="card card--meta">
+        <div class="kpi">
+          <div class="kpi__label">Källor</div>
+          <div id="sourcesCount" class="kpi__value">—</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section__head">
+        <h2>Highlights</h2>
+        <p class="muted">Utvalda poster baserat på relevans (kategori-match) och recency.</p>
+      </div>
+      <div id="highlights" class="grid"></div>
+    </section>
+
+    <section class="section">
+      <div class="section__head">
+        <h2>Senaste rapporter</h2>
+        <p class="muted">Filtrera på kategori, källa eller sök.</p>
+      </div>
+      <div id="list" class="list"></div>
+    </section>
+
+    <section class="section">
+      <div class="section__head">
+        <h2>Källor</h2>
+        <p class="muted">Översikt över källor som bevakas.</p>
+      </div>
+      <div id="sources" class="badges"></div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <span class="muted">Byggd som en intern HR-prototyp. Förbättringsförslag? Ping Mikael.</span>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
