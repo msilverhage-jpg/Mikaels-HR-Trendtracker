@@ -1,9 +1,9 @@
 const CATEGORY_RULES = [
-  { id: "ai", label: "AI & produktivitet", keywords: ["ai", "artificial", "automation", "copilot", "genai", "productivity"] },
-  { id: "hybrid", label: "Hybrid & kultur", keywords: ["hybrid", "remote", "flex", "culture", "engagement", "belonging"] },
-  { id: "skills", label: "Skills & reskilling", keywords: ["skills", "reskill", "upskill", "learning", "capability", "talent marketplace"] },
-  { id: "rewards", label: "Comp & rewards", keywords: ["comp", "compensation", "pay", "salary", "rewards", "benefits", "total rewards"] },
-  { id: "leadership", label: "Ledarskap", keywords: ["leadership", "manager", "leaders", "leading", "executive", "management"] }
+  { id: "ai", label: "AI & produktivitet", keywords: ["ai","artificial","automation","copilot","genai","productivity"] },
+  { id: "hybrid", label: "Hybrid & kultur", keywords: ["hybrid","remote","flex","culture","engagement","belonging"] },
+  { id: "skills", label: "Skills & reskilling", keywords: ["skills","reskill","upskill","learning","capability","talent marketplace"] },
+  { id: "rewards", label: "Comp & rewards", keywords: ["comp","compensation","pay","salary","rewards","benefits","total rewards"] },
+  { id: "leadership", label: "Ledarskap", keywords: ["leadership","manager","leaders","leading","executive","management"] }
 ];
 
 function inferCategory(item) {
@@ -33,7 +33,6 @@ function formatDate(iso) {
 }
 
 function scoreItem(item) {
-  // enkel scoring: nyare = bättre + kategori-match bonus
   const ts = item.publishedAt ? Date.parse(item.publishedAt) : 0;
   return ts;
 }
@@ -54,20 +53,17 @@ async function load() {
   const listEl = document.getElementById("list");
   const sourcesEl = document.getElementById("sources");
 
-  // meta/kpis
   updatedAtEl.textContent = new Date(data.updatedAt).toLocaleString("sv-SE");
   countEl.textContent = String((data.items || []).length);
   sourcesCountEl.textContent = String((data.sources || []).length);
 
-  // sources dropdown + badges
   const sources = [{ id: "all", name: "Alla källor" }, ...(data.sources || [])];
   srcEl.innerHTML = sources.map(s => `<option value="${s.id}">${escapeHtml(s.name)}</option>`).join("");
 
-  sourcesEl.innerHTML = (data.sources || []).map(s =>
-    `<span class="badge">${escapeHtml(s.name)}</span>`
-  ).join("");
+  sourcesEl.innerHTML = (data.sources || [])
+    .map(s => `<span class="badge">${escapeHtml(s.name)}</span>`)
+    .join("");
 
-  // enrich with category
   const enriched = (data.items || []).map(it => ({ ...it, category: inferCategory(it) }));
 
   function applyFilters(items) {
@@ -87,44 +83,36 @@ async function load() {
   function render() {
     const filtered = applyFilters(enriched);
 
-    // highlights: top 5 by recency within filtered set (fallback to all)
     const hlPool = filtered.length ? filtered : enriched;
-    const highlights = [...hlPool]
-      .sort((a,b) => scoreItem(b) - scoreItem(a))
-      .slice(0, 5);
+    const highlights = [...hlPool].sort((a,b) => scoreItem(b) - scoreItem(a)).slice(0, 5);
 
     highlightsEl.innerHTML = highlights.map(it => `
-      <article class="hcard">
+      <a class="hcard" href="${it.url}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(it.title)}">
         <div class="hcard__top">
           <span>${escapeHtml(it.sourceName)} • ${escapeHtml(catLabel(it.category))}</span>
           <span>${formatDate(it.publishedAt)}</span>
         </div>
-        <h3 class="hcard__title">
-          <a href="${it.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(it.title)}</a>
-        </h3>
+        <h3 class="hcard__title">${escapeHtml(it.title)}</h3>
         ${it.snippet ? `<p class="hcard__snip">${escapeHtml(it.snippet)}</p>` : ""}
-      </article>
+      </a>
     `).join("");
 
-    // list: newest first
     const listItems = [...filtered].sort((a,b) => scoreItem(b) - scoreItem(a));
 
     listEl.innerHTML = listItems.map(it => `
-      <div class="row">
+      <a class="row" href="${it.url}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(it.title)}">
         <div class="row__main">
           <div class="row__meta">
             <span class="tag"><span class="dot"></span>${escapeHtml(catLabel(it.category))}</span>
             <span class="tag"><span class="dot dot2"></span>${escapeHtml(it.sourceName)}</span>
             <span class="tag">${formatDate(it.publishedAt)}</span>
           </div>
-          <div style="margin-top:8px">
-            <a href="${it.url}" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none;font-weight:750">
-              ${escapeHtml(it.title)}
-            </a>
+          <div style="margin-top:10px;font-weight:900;letter-spacing:-.01em">
+            ${escapeHtml(it.title)}
           </div>
-          ${it.snippet ? `<div class="muted" style="margin-top:6px;font-size:13px;line-height:1.45">${escapeHtml(it.snippet)}</div>` : ""}
+          ${it.snippet ? `<div class="muted" style="margin-top:8px;font-size:13px;line-height:1.55">${escapeHtml(it.snippet)}</div>` : ""}
         </div>
-      </div>
+      </a>
     `).join("");
 
     if (!listItems.length) {
