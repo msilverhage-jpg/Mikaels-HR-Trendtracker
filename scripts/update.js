@@ -136,4 +136,12 @@ async function main() {
     items: items.slice(0, 80)
   };
 
-  fs.mkdirSync(OUT_DIR, { recursive:_
+  fs.mkdirSync(OUT_DIR, { recursive: true });
+  fs.writeFileSync(OUT_FILE, JSON.stringify(payload, null, 2), "utf-8");
+  console.log(`Wrote ${OUT_FILE} with ${payload.items.length} items.`);
+}
+
+main().catch((e) => {
+  console.error(e);
+  process.exit(1);
+});
