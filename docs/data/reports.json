@@ -1,37 +1,52 @@
 {
   "updatedAt": "2026-02-06T09:00:00Z",
   "sources": [
-    {"id":"deloitte_hct","name":"Deloitte – Human Capital","url":"https://www.deloitte.com","kind":"rss"},
-    {"id":"hbr_hrm","name":"Harvard Business Review","url":"https://hbr.org","kind":"html"},
-    {"id":"mckinsey","name":"McKinsey Insights","url":"https://www.mckinsey.com","kind":"rss"}
+    {
+      "id": "deloitte_hct",
+      "name": "Deloitte – Human Capital Trends",
+      "url": "https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends/2024.html",
+      "kind": "html"
+    },
+    {
+      "id": "hbr_hybrid",
+      "name": "HBR – Hybrid work (topic)",
+      "url": "https://hbr.org/topic/subject/hybrid-work",
+      "kind": "html"
+    },
+    {
+      "id": "ms_wti",
+      "name": "Microsoft Work Trend Index",
+      "url": "https://www.microsoft.com/en-us/worklab/work-trend-index",
+      "kind": "html"
+    }
   ],
   "items": [
     {
-      "id":"deloitte::https://www.deloitte.com/sample-report",
-      "sourceId":"deloitte_hct",
-      "sourceName":"Deloitte – Human Capital",
-      "title":"2026 Global Human Capital Trends — sample report",
-      "url":"https://www.deloitte.com/sample-report",
-      "publishedAt":"2026-02-02T10:00:00Z",
-      "snippet":"Deloitte highlights talent, upskilling and hybrid work as top priorities for 2026."
+      "id": "deloitte::https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends/2024.html",
+      "sourceId": "deloitte_hct",
+      "sourceName": "Deloitte – Human Capital Trends",
+      "title": "2024 Global Human Capital Trends",
+      "url": "https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends/2024.html",
+      "publishedAt": "2024-01-01T00:00:00Z",
+      "snippet": "Deloittes årliga trendrapport om människor, arbete och ledarskap."
     },
     {
-      "id":"hbr::https://hbr.org/sample-article",
-      "sourceId":"hbr_hrm",
-      "sourceName":"Harvard Business Review",
-      "title":"Leading Hybrid Teams: New Research Findings",
-      "url":"https://hbr.org/sample-article",
-      "publishedAt":"2026-02-04T08:00:00Z",
-      "snippet":"HBR examines what high-performing hybrid teams do differently."
+      "id": "hbr::https://hbr.org/topic/subject/hybrid-work",
+      "sourceId": "hbr_hybrid",
+      "sourceName": "HBR – Hybrid work (topic)",
+      "title": "Hybrid work (samlad topic-sida med artiklar)",
+      "url": "https://hbr.org/topic/subject/hybrid-work",
+      "publishedAt": "2024-11-08T00:00:00Z",
+      "snippet": "Samlad sida med HBR-artiklar om hybridarbete och ledarskap i hybridmiljö."
     },
     {
-      "id":"mck::https://www.mckinsey.com/sample-insight",
-      "sourceId":"mckinsey",
-      "sourceName":"McKinsey Insights",
-      "title":"Skills for the New Era: A practical framework",
-      "url":"https://www.mckinsey.com/sample-insight",
-      "publishedAt":"2026-02-01T12:00:00Z",
-      "snippet":"Framework to map current roles to future skill needs and training priorities."
+      "id": "ms::https://www.microsoft.com/en-us/worklab/work-trend-index",
+      "sourceId": "ms_wti",
+      "sourceName": "Microsoft Work Trend Index",
+      "title": "Work Trend Index – Microsofts research om framtidens arbete",
+      "url": "https://www.microsoft.com/en-us/worklab/work-trend-index",
+      "publishedAt": "2025-01-01T00:00:00Z",
+      "snippet": "Work Trend Index-sidan med rapporter, highlights och data om hur arbetet förändras."
     }
   ]
 }
