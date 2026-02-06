@@ -93,6 +93,33 @@ async function load() {
   if (srcEl) {
     srcEl.innerHTML = sources.map(s => `<option value="${s.id}">${escapeHtml(s.name)}</option>`).join("");
   }
+// --- Weekly summary rendering ---
+const weeklySection = document.getElementById("weekly-summary");
+const weeklyHeadline = document.getElementById("weeklyHeadline");
+const weeklyIntro = document.getElementById("weeklyIntro");
+const weeklyBullets = document.getElementById("weeklyBullets");
+const weeklyThemes = document.getElementById("weeklyThemes");
+const weeklyReadMore = document.getElementById("weeklyReadMore");
+
+if (data.weeklySummary) {
+  const s = data.weeklySummary;
+  if (weeklyHeadline) weeklyHeadline.textContent = s.headline || "Veckans sammanfattning";
+  if (weeklyIntro) weeklyIntro.textContent = s.intro || "Kort summering av det viktigaste.";
+  if (weeklyBullets) {
+    weeklyBullets.innerHTML = (s.bullets || []).map(b => `<li>${escapeHtml(b)}</li>`).join("");
+  }
+  if (weeklyThemes) {
+    weeklyThemes.innerHTML = (s.themes || []).map(t => `<span class="pill">${escapeHtml(t)}</span>`).join("");
+  }
+  if (weeklyReadMore) {
+    // kräfta: länka till en sökning eller källsidan — här gör vi länken till första item
+    const first = (data.items || [])[0];
+    weeklyReadMore.href = first ? first.url : "#";
+  }
+  if (weeklySection) weeklySection.style.display = "block";
+} else {
+  if (weeklySection) weeklySection.style.display = "none";
+}
 
   setText("updatedAt", data.updatedAt ? new Date(data.updatedAt).toLocaleString("sv-SE") : "—");
   setText("count", String((data.items || []).length));
