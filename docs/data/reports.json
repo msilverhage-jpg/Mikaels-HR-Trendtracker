@@ -1,10 +1,23 @@
 {
   "updatedAt": "2026-02-06T09:00:00Z",
+  "weeklySummary": {
+    "headline": "Veckans HR-signalspaning: AI-produktivitet + hybrid ledarskap + skills",
+    "bullets": [
+      "AI rör sig från hype till praktisk produktivitetsvinst: fokus på adoption, styrning och nya arbetssätt.",
+      "Hybrid är nu ett ledarskaps- och kulturcase: tydlighet, normer och teamritualer är avgörande.",
+      "Skills/reskilling fortsätter dominera: företag bygger capability-kartor och mer datadrivna lärresor."
+    ],
+    "themes": [
+      "AI & produktivitet",
+      "Hybrid & kultur",
+      "Skills & reskilling"
+    ]
+  },
   "sources": [
     {
       "id": "deloitte_hct",
       "name": "Deloitte – Human Capital Trends",
-      "url": "https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends/2024.html",
+      "url": "https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends.html",
       "kind": "html"
     },
     {
@@ -25,28 +38,28 @@
       "id": "deloitte::https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends/2024.html",
       "sourceId": "deloitte_hct",
       "sourceName": "Deloitte – Human Capital Trends",
-      "title": "2024 Global Human Capital Trends",
+      "title": "Global Human Capital Trends (översikt / rapport)",
       "url": "https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends/2024.html",
       "publishedAt": "2024-01-01T00:00:00Z",
-      "snippet": "Deloittes årliga trendrapport om människor, arbete och ledarskap."
+      "snippet": "Årlig trendrapport om människor, arbete, ledarskap och organisatorisk kapabilitet."
     },
     {
       "id": "hbr::https://hbr.org/topic/subject/hybrid-work",
       "sourceId": "hbr_hybrid",
       "sourceName": "HBR – Hybrid work (topic)",
-      "title": "Hybrid work (samlad topic-sida med artiklar)",
+      "title": "Hybrid work — samlad topic-sida med artiklar",
       "url": "https://hbr.org/topic/subject/hybrid-work",
       "publishedAt": "2024-11-08T00:00:00Z",
-      "snippet": "Samlad sida med HBR-artiklar om hybridarbete och ledarskap i hybridmiljö."
+      "snippet": "Samlad sida med artiklar och research om hybridarbete och ledarskap."
     },
     {
       "id": "ms::https://www.microsoft.com/en-us/worklab/work-trend-index",
       "sourceId": "ms_wti",
       "sourceName": "Microsoft Work Trend Index",
-      "title": "Work Trend Index – Microsofts research om framtidens arbete",
+      "title": "Work Trend Index — rapporter och research om framtidens arbete",
       "url": "https://www.microsoft.com/en-us/worklab/work-trend-index",
       "publishedAt": "2025-01-01T00:00:00Z",
-      "snippet": "Work Trend Index-sidan med rapporter, highlights och data om hur arbetet förändras."
+      "snippet": "Microsofts samlingssida för WTI-rapporter, highlights och research."
     }
   ]
 }
